@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1 class="text-center">Burpee Calorie Calculator</h1>
+
+        <div class="bg-container">
+            <div class="content-left">
+            <p>If you're missing a motivation to do more burpees, this <span class="bold">burpee calorie calculator is your buddy!</span>  Count the burpee calorie burn from your workout, get to know the burpee exercise benefits, and  <span class="bold">check out the next section</span> on technique to answer the How do you do a burpee exercise? question. All this in one page!</p>
+            <h2>Burpee exercise – benefits and technique</h2>
+            <p>A burpee – some love it, some hate it. Both those groups admit that the burpee is a demanding exercise. So why the effort?</p>
+            <p>Burpees work your entire body. A burpee is basically a squat, a plank, a push-up, and a leap (or jump squat) in one. In one move, it works your legs, your butt, your abs, and your arms. Being versatile, it also burns lots of calories and boosts your endurance and cardio fitness. <span class="bold">All in one!.</span></p>
+            <br>
+            <div class="text-center mt">
+                <img src="sburpee image.jpg" class="burpee-img" alt="">
+            </div>
+            
+            
+            <p class="italic">A burpee – move by move.</p>
+            <p>How do you do a burpee exercise:</p>
+            <ol>
+                <li>Stand straight, with your legs about shoulder-width apart.</li>
+                <li>Lower yourself to a <span class="bold">squat</span>, and place your hands on the floor</li>
+                <li>Kick your feet back vigorously to a <span class="bold">plank</span>. Your body should keep a straight line - do not stick your butt in the air or lower your hips to the floor.</li>
+                <li>Do a <span class="bold">push-up!</span></li>
+                <li>Jump the feet back to the starting position.</li>
+                <li>Jump explosively in the air.</li>
+                <li>Repeat as many times as you want. 😉</li>
+                <li>After you're done with the workout, check how much energy you expended with our burpee calorie calculator.</li>
+                <li>Remember that even if you're tempted with burpee exercise benefits, <span class="bold">doing burpees every day is not necessarily a good thing</span>. It's essential to make other moves so that you can develop your fitness evenly and not neglect any fitness components.</li>
+            </ol>
+
+            <h2>Using the burpee calorie calculator</h2>
+            <p>To use our burpee calorie calculator, you need to provide only two parameters: the number of burpees performed and your actual weight. Input both numbers into the calculator. While typing in the weight, remember that you can play with the units as much as you need.</p>
+            
+            <p>The calculator will give you a result as <span class="bold">a range of the burpee calories burned</span>, together with a <span class="bold">mean value</span>. Being on the lower or the higher side of the range depends primarily on:</p>
+        
+            <ul>
+                <li>The pace of the exercise (doing it as fast as you can versus taking it slowly); and</li>
+                <li>The effort you put into the move (e.g., classic push-up versus knee push-up).</li>
+            </ul>
+
+            <h2>Beginner burpees, half burpees, squat thrusts</h2>
+            <p>Suppose you're only starting your fitness journey and not feeling up to a regular burpee. In that case, you can <span class="bold">try a half burpee/beginner burpee/squat thrust</span>. Those are the names of the exercises that cut out the push-up, and sometimes a jump, from a burpee. That makes you feel almost all the burpee exercise benefits without doing the full burpee – and slowly builds your strength to perform the full version one day.</p>
+            
+            <div class="text-center mt">
+                <img src="squat-img.jpg" class="squat-img">
+            </div>
+            
+        </div>
+
+
+        <div class="calculator-right">
+            <div class="inner-cont text-center">
+                <h1 class="italic">CALCULATOR</h1>
+
+                <input type="number" placeholder="Enter no.of Burpees" class="input1" id = "inputBurpee">
+                <br>
+                <input type="number" placeholder="Enter your Weight in KG" id = "inputWeight">
+                <br>
+
+                <button class="submit-but" onclick="submit()" id = "submit">Submit</button>
+                <button class="reload" onclick = "reload()" id = "reload">Reload</button>
+                
+            </div>
+
+            <div class="res-cont text-center">
+                <p id = "res"></p>
+            </div>
+        </div>
+
+        </div>
+        
+    </div>
+
+    <script src="value.js"></script>
+</body>
+</html>
